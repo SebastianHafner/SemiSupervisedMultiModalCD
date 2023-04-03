@@ -1,0 +1,8 @@
+_BASE_: "dsunet_s1s2_base.yaml"
+
+TRAINER:
+  LR: 1e-4
+  BATCH_SIZE: 16
+
+DATALOADER:
+  TRAIN_PERCENTAGE: 100

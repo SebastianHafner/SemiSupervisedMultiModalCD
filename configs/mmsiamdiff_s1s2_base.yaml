@@ -1,0 +1,7 @@
+_BASE_: "base.yaml"
+
+MODEL:
+  TYPE: 'multimodalsiameseunet'
+
+DATALOADER:
+  INPUT_MODE: 's1s2'

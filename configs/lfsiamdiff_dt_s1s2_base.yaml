@@ -1,0 +1,8 @@
+_BASE_: "base.yaml"
+
+MODEL:
+  TYPE: 'dtlatefusionsiameseunet'
+
+DATALOADER:
+  INPUT_MODE: 's1s2'
+  INCLUDE_BUILDING_LABELS: True

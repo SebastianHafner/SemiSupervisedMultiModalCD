@@ -1,0 +1,8 @@
+_BASE_: "base.yaml"
+
+MODEL:
+  TYPE: 'unet'
+  IN_CHANNELS: 4
+
+DATALOADER:
+  INPUT_MODE: 's2'

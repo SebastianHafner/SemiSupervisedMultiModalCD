@@ -1,0 +1,15 @@
+_BASE_: "base.yaml"
+DEBUG: False
+
+TRAINER:
+  LR: 1e-4
+  BATCH_SIZE: 8
+  PATIENCE: 5
+
+MODEL:
+  TYPE: 'unet'
+  IN_CHANNELS: 2
+
+DATALOADER:
+  INPUT_MODE: 's1'
+  TRAIN_PERCENTAGE: 10

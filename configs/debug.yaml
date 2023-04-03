@@ -1,0 +1,8 @@
+_BASE_: "siamssl_s2_base.yaml"
+DEBUG: True
+
+TRAINER:
+  BATCH_SIZE: 16
+
+AUGMENTATION:
+  CROP_SIZE: 64

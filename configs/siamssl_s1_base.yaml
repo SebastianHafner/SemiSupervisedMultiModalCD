@@ -1,0 +1,14 @@
+_BASE_: "base.yaml"
+
+MODEL:
+  TYPE: 'dtsiameseunet'
+  IN_CHANNELS: 2
+
+DATALOADER:
+  INPUT_MODE: 's1'
+  INCLUDE_BUILDING_LABELS: True
+  INCLUDE_UNLABELED: True
+  USE_TRAIN_AS_UNLABELED: True
+
+CONSISTENCY_TRAINER:
+  LOSS_TYPE: 'PowerJaccardLoss'
