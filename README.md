@@ -18,7 +18,7 @@ The dataset can be downloaded from Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6914898.svg)](https://doi.org/10.5281/zenodo.6914898)
 
-We also provide the jupyter notebook `s1s2_data_download.ipynb` to recreate the dataset. Specifically, the notebook contains functions to pre-process Sentinel-1 SAR and Sentinel-2 MSI data for the SpaceNet7 sites.
+We also provide the jupyter notebook `data_download.ipynb` to recreate the dataset. The notebook contains functions to pre-process Sentinel-1 SAR data, Sentinel-2 MSI data, and building footprint data for the SpaceNet7 sites.
 
 
 # Network training
