@@ -1,0 +1,3770 @@
+{
+    "L15-0369E-1244N_1479_3214_13": [
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 0,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 1,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 2,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 3,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 4,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 5,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 6,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 7,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 8,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 9,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 10,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 11,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 12,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 13,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 14,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 15,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 16,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 17,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 18,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 19,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 20,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 21,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 22,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0369E-1244N_1479_3214_13",
+            "index": 23,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-0391E-1219N_1567_3314_13": [
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 22,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 23,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0391E-1219N_1567_3314_13",
+            "index": 24,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-0509E-1108N_2037_3758_13": [
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 0,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 1,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 2,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 3,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 4,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 5,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 6,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 7,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 8,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 9,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 10,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 11,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 12,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 13,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 14,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 15,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 16,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 17,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 18,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0509E-1108N_2037_3758_13",
+            "index": 19,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-0571E-1302N_2284_2983_13": [
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 0,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 1,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 2,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 3,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 4,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 5,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 6,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 7,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 8,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 9,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 10,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 11,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 12,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 13,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 14,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 15,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 16,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 17,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0571E-1302N_2284_2983_13",
+            "index": 18,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-0697E-0874N_2789_4694_13": [
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 22,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 23,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0697E-0874N_2789_4694_13",
+            "index": 24,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-0744E-0927N_2979_4481_13": [
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 22,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 23,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-0744E-0927N_2979_4481_13",
+            "index": 24,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1031E-1300N_4127_2991_13": [
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 22,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1031E-1300N_4127_2991_13",
+            "index": 23,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1129E-0819N_4517_4915_13": [
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 22,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 23,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1129E-0819N_4517_4915_13",
+            "index": 24,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1203E-1203N_4815_3379_13": [
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 0,
+            "year": 2017,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 1,
+            "year": 2017,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 2,
+            "year": 2017,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 3,
+            "year": 2017,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 4,
+            "year": 2017,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 5,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 6,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 7,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 8,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 9,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 10,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 11,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 12,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 13,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 14,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 15,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 16,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 17,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 18,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 19,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 20,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 21,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 22,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 23,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 24,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1203E-1203N_4815_3379_13",
+            "index": 25,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1213E-1238N_4852_3239_13": [
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 0,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 1,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 2,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 3,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 4,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 5,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 6,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 7,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 8,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 9,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 10,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 11,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 12,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 13,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 14,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 15,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 16,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 17,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 18,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 19,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1213E-1238N_4852_3239_13",
+            "index": 20,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1249E-1167N_4999_3521_13": [
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 22,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 23,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1249E-1167N_4999_3521_13",
+            "index": 24,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1281E-1035N_5125_4049_13": [
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 5,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 6,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 7,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 8,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 9,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 10,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 11,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 12,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 13,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 14,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 15,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 16,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 17,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1281E-1035N_5125_4049_13",
+            "index": 18,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1438E-1227N_5753_3282_13": [
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 22,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 23,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1438E-1227N_5753_3282_13",
+            "index": 24,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1546E-1154N_6186_3574_13": [
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 5,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 6,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 7,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 8,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 9,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 10,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 11,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 12,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 13,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 14,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 15,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 16,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 17,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 18,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 19,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 20,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1546E-1154N_6186_3574_13",
+            "index": 21,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1615E-1205N_6461_3368_13": [
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 0,
+            "year": 2017,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 1,
+            "year": 2017,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 2,
+            "year": 2017,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 3,
+            "year": 2017,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 4,
+            "year": 2017,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 5,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 6,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 7,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 8,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 9,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 10,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 11,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 12,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 13,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 14,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 15,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 16,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 17,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 18,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 19,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 20,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 21,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 22,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1615E-1205N_6461_3368_13",
+            "index": 23,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1630E-0988N_6522_4239_13": [
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 13,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 14,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 15,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 16,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 17,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 18,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 19,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 20,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 21,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 22,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 23,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1630E-0988N_6522_4239_13",
+            "index": 24,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1666E-1189N_6665_3433_13": [
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 0,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 1,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 2,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 3,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 4,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 5,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 6,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 7,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 8,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 9,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 10,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 11,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 12,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 13,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 14,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 15,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 16,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 17,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 18,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 19,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 20,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 21,
+            "year": 2019,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 22,
+            "year": 2019,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1666E-1189N_6665_3433_13",
+            "index": 23,
+            "year": 2020,
+            "month": 1,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1670E-1159N_6681_3552_13": [
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 0,
+            "year": 2017,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 1,
+            "year": 2017,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 2,
+            "year": 2017,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 3,
+            "year": 2017,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 4,
+            "year": 2017,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 5,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 6,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 7,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 8,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 9,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 10,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 11,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 12,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 13,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 14,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 15,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 16,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 17,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 18,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 19,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 20,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 21,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1670E-1159N_6681_3552_13",
+            "index": 22,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1690E-1210N_6762_3348_13": [
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 0,
+            "year": 2017,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 1,
+            "year": 2017,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 2,
+            "year": 2017,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 3,
+            "year": 2017,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 4,
+            "year": 2018,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 5,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 6,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 7,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 8,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 9,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 10,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 11,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 12,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 13,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 14,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 15,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 16,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 17,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 18,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 19,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 20,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 21,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 22,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1690E-1210N_6762_3348_13",
+            "index": 23,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        }
+    ],
+    "L15-1749E-1266N_6997_3126_13": [
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 0,
+            "year": 2018,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 1,
+            "year": 2018,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 2,
+            "year": 2018,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 3,
+            "year": 2018,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 4,
+            "year": 2018,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 5,
+            "year": 2018,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 6,
+            "year": 2018,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 7,
+            "year": 2018,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 8,
+            "year": 2018,
+            "month": 10,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 9,
+            "year": 2018,
+            "month": 11,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 10,
+            "year": 2018,
+            "month": 12,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 11,
+            "year": 2019,
+            "month": 1,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 12,
+            "year": 2019,
+            "month": 2,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 13,
+            "year": 2019,
+            "month": 3,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 14,
+            "year": 2019,
+            "month": 4,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 15,
+            "year": 2019,
+            "month": 5,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 16,
+            "year": 2019,
+            "month": 6,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 17,
+            "year": 2019,
+            "month": 7,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 18,
+            "year": 2019,
+            "month": 8,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 19,
+            "year": 2019,
+            "month": 9,
+            "mask": false,
+            "label": false
+        },
+        {
+            "aoi_id": "L15-1749E-1266N_6997_3126_13",
+            "index": 20,
+            "year": 2019,
+            "month": 10,
+            "mask": false,
+            "label": false
+        }
+    ]
+}

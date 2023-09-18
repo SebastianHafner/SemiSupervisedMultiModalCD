@@ -1,8 +1,0 @@
-_BASE_: "lfsiamdiff_dt_s1s2_base.yaml"
-
-TRAINER:
-  LR: 5e-5
-  BATCH_SIZE: 8
-
-DATALOADER:
-  TRAIN_PERCENTAGE: 100

@@ -1,8 +1,0 @@
-_BASE_: "unet_s1_base.yaml"
-
-TRAINER:
-  LR: 1e-5
-  BATCH_SIZE: 16
-
-DATALOADER:
-  TRAIN_PERCENTAGE: 100

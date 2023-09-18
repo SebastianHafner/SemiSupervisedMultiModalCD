@@ -1,8 +1,0 @@
-_BASE_: "base.yaml"
-
-MODEL:
-  TYPE: 'siameseunet'
-  IN_CHANNELS: 2
-
-DATALOADER:
-  INPUT_MODE: 's1'

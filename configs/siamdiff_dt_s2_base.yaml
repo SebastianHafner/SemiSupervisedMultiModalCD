@@ -1,9 +1,0 @@
-_BASE_: "base.yaml"
-
-MODEL:
-  TYPE: 'dtsiameseunet'
-  IN_CHANNELS: 4
-
-DATALOADER:
-  INPUT_MODE: 's2'
-  INCLUDE_BUILDING_LABELS: True
