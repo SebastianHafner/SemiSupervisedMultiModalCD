@@ -29,8 +29,8 @@ def create_network(cfg):
     return nn.DataParallel(model)
 
 
-def save_checkpoint(network, optimizer, epoch, cfg: experiment_manager.CfgNode):
-    save_file = Path(cfg.PATHS.OUTPUT) / 'networks' / f'{cfg.NAME}.pt'
+def save_checkpoint(network, optimizer, epoch, cfg: experiment_manager, save_file: Path = None):
+    save_file = Path(cfg.PATHS.OUTPUT) / 'networks' / f'{cfg.NAME}.pt' if save_file is None else save_file
     save_file.parent.mkdir(exist_ok=True)
     checkpoint = {
         'epoch': epoch,

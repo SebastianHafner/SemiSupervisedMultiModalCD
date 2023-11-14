@@ -6,13 +6,17 @@ import timeit
 
 import wandb
 import numpy as np
+from pathlib import Path
 
-from utils import networks, datasets, loss_functions, evaluation, experiment_manager, parsers
+from utils import networks, datasets, loss_functions, evaluation, experiment_manager, parsers, geofiles
 
 # https://github.com/wandb/examples/blob/master/colabs/pytorch/Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W%26B.ipynb
 if __name__ == '__main__':
     args = parsers.sweep_argument_parser().parse_known_args()[0]
     cfg = experiment_manager.setup_cfg(args)
+
+    sweep_dir = Path(cfg.PATHS.OUTPUT) / 'sweeps' / cfg.NAME
+    sweep_dir.mkdir(exist_ok=True)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print('=== Runnning on device: p', device)
@@ -194,8 +198,24 @@ if __name__ == '__main__':
             net, *_ = networks.load_checkpoint(cfg, device)
             _ = evaluation.model_evaluation_mm_dt(net, cfg, 'test', epoch_float, global_step)
 
+            sweep_data_file = sweep_dir / 'data.json'
+            sweep_data = geofiles.load_json(sweep_data_file)
+            best_f1_val = float(best_f1_val.item())
+            if best_f1_val > sweep_data['sweep_best_f1_val']:
+                print(f'best so far ({best_f1_val:.3f})')
+                sweep_data['sweep_best_f1_val'] = best_f1_val
+                sweep_data['lr'] = sweep_cfg.lr
+                sweep_data['batch_size'] = sweep_cfg.batch_size
+                sweep_data['loss_factor'] = sweep_cfg.loss_factor
+                geofiles.write_json(sweep_data_file, sweep_data)
+                net_file = sweep_dir / f'{cfg.NAME}.pt'
+                networks.save_checkpoint(net, optimizer, epoch, cfg, save_file=net_file)
+
 
     if args.sweep_id is None:
+        sweep_data_file = sweep_dir / 'data.json'
+        geofiles.write_json(sweep_data_file, {'sweep_best_f1_val': 0})
+
         # Step 2: Define sweep config
         sweep_config = {
             'method': 'grid',
