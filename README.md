@@ -14,7 +14,7 @@ We provide tools to detect urban changes in any location and for any time period
 
 1. Create a folder named `urban_cd_app` in your Google Drive
 
-2. Download the model from [here]() (Google Drive) and place it in the `urban_cd_app` folder. Also make a copy of this [Colab notebook]() in the same folder. Your folder should now contain the following files:
+2. Download the model from [here](https://drive.google.com/file/d/1F2YGSiXeQ801VOT94FCZqxU618j6D3tO/view?usp=drive_link) (Google Drive) and place it in the `urban_cd_app` folder. Also make a copy of this [Colab notebook](https://colab.research.google.com/drive/18HETwXXfZMF5PCesHqdylT2EsieAjX9i?usp=sharing) in the same folder. Your folder should now contain the following files:
 
     ```
     $ Your Google Drive setup
@@ -25,7 +25,7 @@ We provide tools to detect urban changes in any location and for any time period
     
     ```
 
-3. Download satellite data for your region of interest with the UI in this [GEE script](https://code.earthengine.google.com/92a32c060345f31f643e1dacb347a4bb?hideCode=true).
+3. Download satellite data for your region of interest with the UI in this [GEE script](https://code.earthengine.google.com/ae1080c1d1f17f2fa0c29018eb74410b?hideCode=true).
 
 4. Run the Colab notebook to detect urban changes for your region of interest.
 
@@ -41,7 +41,7 @@ The SEN12 Multi-Temporal Urban Mapping Dataset is comprised of monthly mean Sent
 
 The dataset can be downloaded from Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6914898.svg)](https://doi.org/10.5281/zenodo.6914898)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7794693.svg)](https://doi.org/10.5281/zenodo.7794693)
 
 We also provide the jupyter notebook `data_download.ipynb` to recreate the dataset. The notebook contains functions to pre-process Sentinel-1 SAR data, Sentinel-2 MSI data, and building footprint data for the SpaceNet7 sites.
 

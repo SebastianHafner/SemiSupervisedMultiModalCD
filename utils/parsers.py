@@ -43,6 +43,7 @@ def deployment_argument_parser():
     parser.add_argument('-o', "--output-dir", dest='output_dir', required=True, help="path to output directory")
     parser.add_argument('-d', "--dataset-dir", dest='dataset_dir', default="", required=True,
                         help="path to output directory")
+    parser.add_argument('-s', "--site", dest='site', default="example", help="site name")
 
     parser.add_argument(
         "opts",

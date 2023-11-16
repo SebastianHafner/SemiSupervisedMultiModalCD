@@ -1,4 +1,5 @@
 import torch
+import torchvision.transforms.functional as TF
 from pathlib import Path
 from abc import abstractmethod
 import numpy as np
@@ -202,6 +203,89 @@ class MultimodalCDDataset(AbstractMultimodalCDDataset):
             if aoi_id == candidate_aoi_id:
                 return index
         return None
+
+    def __len__(self):
+        return self.length
+
+    def __str__(self):
+        return f'Dataset with {self.length} samples.'
+
+
+class DeploymentDataset(torch.utils.data.Dataset):
+
+    def __init__(self, cfg: experiment_manager.CfgNode, site: str):
+        super().__init__()
+
+        self.site = site
+        self.data_path = Path(cfg.PATHS.DATASET)
+        self.cfg = cfg
+        self.s1_bands = [0, 1]
+        self.s2_bands = [2, 1, 0, 3]
+
+        self.tile_size = cfg.AUGMENTATION.CROP_SIZE
+
+        # making sure that all data is available
+        s1_t1_file = self.data_path / f'sentinel1_{site}_t1.tif'
+        s1_t2_file = self.data_path / f'sentinel1_{site}_t2.tif'
+        s2_t1_file = self.data_path / f'sentinel2_{site}_t1.tif'
+        s2_t2_file = self.data_path / f'sentinel2_{site}_t2.tif'
+        assert (s1_t1_file.exists() and s1_t2_file.exists() and s2_t1_file.exists() and s2_t2_file.exists())
+
+        self.s1_t1, self.transform, self.crs = geofiles.read_tif(s1_t1_file)
+        self.s1_t2, *_ = geofiles.read_tif(s1_t2_file)
+        self.s2_t1, *_ = geofiles.read_tif(s2_t1_file)
+        self.s2_t2, *_ = geofiles.read_tif(s2_t2_file)
+
+        m, n, _ = self.s1_t1.shape
+        self.m, self.n = (m // self.tile_size) * self.tile_size, (n // self.tile_size) * self.tile_size
+        self.tiles = []
+        for i in range(0, self.m , self.tile_size):
+            for j in range(0, self.n, self.tile_size):
+                tile = {
+                    'i': i,
+                    'j': j,
+                }
+                self.tiles.append(tile)
+
+        manager = multiprocessing.Manager()
+        self.tiles = manager.list(self.tiles)
+
+        self.length = len(self.tiles)
+
+    def __getitem__(self, index):
+        tile = self.tiles[index]
+        i, j = tile['i'], tile['j']
+
+        tile_s1_t1 = self.s1_t1[i:i + self.tile_size, j:j + self.tile_size, self.s1_bands]
+        tile_s1_t2 = self.s1_t2[i:i + self.tile_size, j:j + self.tile_size, self.s1_bands]
+        tile_s2_t1 = self.s2_t1[i:i + self.tile_size, j:j + self.tile_size, self.s2_bands]
+        tile_s2_t2 = self.s2_t2[i:i + self.tile_size, j:j + self.tile_size, self.s2_bands]
+
+        tile_s1_t1, tile_s1_t2 =  TF.to_tensor(tile_s1_t1), TF.to_tensor(tile_s1_t2)
+        tile_s2_t1, tile_s2_t2 = TF.to_tensor(tile_s2_t1), TF.to_tensor(tile_s2_t2)
+
+        if self.cfg.DATALOADER.INPUT_MODE == 's1':
+            x_t1, x_t2 = tile_s1_t1, tile_s1_t2
+        elif self.cfg.DATALOADER.INPUT_MODE == 's2':
+            x_t1, x_t2 = tile_s2_t1, tile_s2_t2
+        else:
+            x_t1 = torch.concat((tile_s1_t1, tile_s2_t1), dim=0)
+            x_t2 = torch.concat((tile_s1_t2, tile_s2_t2), dim=0)
+
+        item = {
+            'x_t1': x_t1,
+            'x_t2': x_t2,
+            'i': i,
+            'j': j,
+        }
+
+        return item
+
+    def get_arr(self, c: int = 1):
+        return np.zeros((self.m, self.n), dtype=np.uint8) if c == 1 else np.zeros((self.m, self.n, c), dtype=np.uint8)
+
+    def get_geo(self):
+        return self.transform, self.crs
 
     def __len__(self):
         return self.length
