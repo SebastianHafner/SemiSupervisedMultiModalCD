@@ -1,9 +1,10 @@
 import torchvision.transforms.functional as TF
 from torchvision import transforms
 import numpy as np
+from utils.experiment_manager import CfgNode
 
 
-def compose_transformations(cfg, no_augmentations: bool):
+def compose_transformations(cfg: CfgNode, no_augmentations: bool):
     if no_augmentations:
         return transforms.Compose([Numpy2Torch()])
 
@@ -25,7 +26,7 @@ def compose_transformations(cfg, no_augmentations: bool):
         transformations.append(ColorShift())
 
     if cfg.AUGMENTATION.GAMMA_CORRECTION:
-        transformations.append(GammaCorrection())
+        transformations.append(GammaCorrection(cfg))
 
     transformations.append(Numpy2Torch())
 
@@ -89,18 +90,30 @@ class ColorShift(object):
 
 
 class GammaCorrection(object):
-    def __init__(self, gain: float = 1, min_gamma: float = 0.25, max_gamma: float = 2):
+    def __init__(self, cfg: CfgNode, gain: float = 1, min_gamma: float = 0.25, max_gamma: float = 2):
+        self.c_s1 = len(cfg.DATALOADER.S1_BANDS)
+        self.c_s2 = len(cfg.DATALOADER.S2_BANDS)
+
         self.gain = gain
         self.min_gamma = min_gamma
         self.max_gamma = max_gamma
 
     def __call__(self, args):
-        img_t1, img_t2, label = args
-        gamma_t1 = np.random.uniform(self.min_gamma, self.max_gamma, img_t1.shape[-1])
-        img_t1_gamma_corrected = np.clip(np.power(img_t1, gamma_t1[np.newaxis, np.newaxis, :]), 0, 1).astype(np.float32)
-        gamma_t2 = np.random.uniform(self.min_gamma, self.max_gamma, img_t2.shape[-1])
-        img_t2_gamma_corrected = np.clip(np.power(img_t2, gamma_t2[np.newaxis, np.newaxis, :]), 0, 1).astype(np.float32)
-        return img_t1_gamma_corrected, img_t2_gamma_corrected, label
+        imgs, buildings, change = args
+
+        imgs_s1, imgs_s2 = imgs[:, :, :2 * self.c_s1], imgs[:, :, 2 * self.c_s1:]
+        img_s2_t1, img_s2_t2 = imgs_s2[:, :, :self.c_s2], imgs_s2[:, :, self.c_s2:]
+
+        img_s2_t1_gamma_corrected = self._apply_gamma_correction(img_s2_t1)
+        img_s2_t2_gamma_corrected = self._apply_gamma_correction(img_s2_t2)
+
+        imgs = np.concatenate((imgs_s1, img_s2_t1_gamma_corrected, img_s2_t2_gamma_corrected), axis=-1)
+        return imgs, buildings, change
+
+    def _apply_gamma_correction(self, img: np.ndarray) -> np.ndarray:
+        gamma = np.random.uniform(self.min_gamma, self.max_gamma, img.shape[-1])
+        img_gamma_corrected = np.clip(np.power(img, gamma[np.newaxis, np.newaxis, :]), 0, 1)
+        return img_gamma_corrected.astype(np.float32)
 
 
 # Performs uniform cropping on images

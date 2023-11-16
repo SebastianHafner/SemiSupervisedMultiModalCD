@@ -166,6 +166,7 @@ class MultimodalCDDataset(AbstractMultimodalCDDataset):
         # transformation, but this ain't pretty
         imgs = np.concatenate((img_s1_t1, img_s1_t2, img_s2_t1, img_s2_t2), axis=-1)
         imgs, buildings, change = self.transform((imgs, buildings, change))
+
         imgs_s1 = imgs[:2*len(self.s1_band_indices), ]
         img_s1_t1, img_s1_t2 = imgs_s1[:len(self.s1_band_indices), ], imgs_s1[len(self.s1_band_indices):, ]
         imgs_s2 = imgs[2*len(self.s1_band_indices):, ]

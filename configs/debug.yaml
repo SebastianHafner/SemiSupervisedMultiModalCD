@@ -1,4 +1,4 @@
-_BASE_: "siamssl_s2_base.yaml"
+_BASE_: "mmcr_gamma_train100.yaml"
 DEBUG: True
 
 TRAINER:
