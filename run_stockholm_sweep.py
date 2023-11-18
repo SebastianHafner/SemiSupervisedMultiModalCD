@@ -12,8 +12,9 @@ from utils import networks, datasets, loss_functions, evaluation, experiment_man
 
 # https://github.com/wandb/examples/blob/master/colabs/pytorch/Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W%26B.ipynb
 if __name__ == '__main__':
-    args = parsers.sweep_argument_parser().parse_known_args()[0]
+    args = parsers.sweep_finetune_argument_parser().parse_known_args()[0]
     cfg = experiment_manager.setup_cfg(args)
+    cfg.PATHS['STHLM_DATA'] = args.sthlm_dir
 
     sweep_dir = Path(cfg.PATHS.OUTPUT) / 'sweeps' / cfg.NAME
     sweep_dir.mkdir(exist_ok=True)
