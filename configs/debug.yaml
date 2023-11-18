@@ -1,4 +1,4 @@
-_BASE_: "mmcr_gamma_train100.yaml"
+_BASE_: "mmcr_train100_stockholm1823_incb.yaml"
 DEBUG: True
 
 TRAINER:
