@@ -42,7 +42,7 @@ if __name__ == '__main__':
             cons_criterion = loss_functions.get_criterion(cfg.CONSISTENCY_TRAINER.LOSS_TYPE)
 
             # reset the generators
-            dataset = datasets.MultimodalCDDataset(cfg=cfg, run_type='train')
+            dataset = datasets.MultimodalCDDatasetStockholm(cfg=cfg, run_type='train')
             print(dataset)
 
             dataloader_kwargs = {
