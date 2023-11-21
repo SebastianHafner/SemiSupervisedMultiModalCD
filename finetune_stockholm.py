@@ -114,7 +114,7 @@ def run_training(cfg):
                 if is_sthlm.any() and sthlm_buildings.INCLUDE:
                     select_t1 = torch.logical_and(is_sthlm, torch.eq(year_t1, sthlm_buildings.YEAR))
                     select_t2 = torch.logical_and(is_sthlm, torch.eq(year_t2, sthlm_buildings.YEAR))
-                    sem_loss = torch.tensor([0], device=device)
+                    sem_loss = torch.tensor([0], device=device, dtype=torch.long)
                     if select_t1.any():
                         y_sem_t1 = batch['y_sem_t1'].to(device)
                         sem_stream1_t1_loss = sup_criterion(logits_stream1_sem_t1[select_t1], y_sem_t1[select_t1])
