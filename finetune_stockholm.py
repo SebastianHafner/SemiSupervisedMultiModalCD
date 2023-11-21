@@ -114,21 +114,21 @@ def run_training(cfg):
                 if is_sthlm.any() and sthlm_buildings.INCLUDE:
                     select_t1 = torch.logical_and(is_sthlm, torch.eq(year_t1, sthlm_buildings.YEAR))
                     select_t2 = torch.logical_and(is_sthlm, torch.eq(year_t2, sthlm_buildings.YEAR))
-                    sem_loss = torch.tensor([0], device=device, dtype=torch.long)
+                    sem_loss = None
                     if select_t1.any():
                         y_sem_t1 = batch['y_sem_t1'].to(device)
                         sem_stream1_t1_loss = sup_criterion(logits_stream1_sem_t1[select_t1], y_sem_t1[select_t1])
                         sem_stream2_t1_loss = sup_criterion(logits_stream2_sem_t1[select_t1], y_sem_t1[select_t1])
                         sem_fusion_t1_loss = sup_criterion(logits_fusion_sem_t1[select_t1], y_sem_t1[select_t1])
-                        sem_loss += (sem_stream1_t1_loss + sem_stream2_t1_loss + sem_fusion_t1_loss) / 3
+                        sem_loss = (sem_stream1_t1_loss + sem_stream2_t1_loss + sem_fusion_t1_loss) / 3
                     if select_t2.any():
                         y_sem_t2 = batch['y_sem_t2'].to(device)
                         sem_stream1_t2_loss = sup_criterion(logits_stream1_sem_t2[select_t2], y_sem_t2[select_t2])
                         sem_stream2_t2_loss = sup_criterion(logits_stream2_sem_t2[select_t2], y_sem_t2[select_t2])
                         sem_fusion_t2_loss = sup_criterion(logits_fusion_sem_t2[select_t2], y_sem_t2[select_t2])
-                        sem_loss += (sem_stream1_t2_loss + sem_stream2_t2_loss + sem_fusion_t2_loss) / 3
+                        sem_loss = (sem_stream1_t2_loss + sem_stream2_t2_loss + sem_fusion_t2_loss) / 3
 
-                    sup_loss = sem_loss
+                    sup_loss = sem_loss if sem_loss is not None else torch.tensor([0], device=device)
                     sem_loss_set.append(sem_loss.item())
                     sup_loss_set.append(sup_loss.item())
 
