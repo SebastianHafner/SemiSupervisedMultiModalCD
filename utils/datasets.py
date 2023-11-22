@@ -5,11 +5,12 @@ from abc import abstractmethod
 import numpy as np
 import multiprocessing
 from utils import augmentations, experiment_manager, geofiles
+from utils.experiment_manager import CfgNode
 
 
 class AbstractMultimodalCDDataset(torch.utils.data.Dataset):
 
-    def __init__(self, cfg: experiment_manager.CfgNode, run_type: str):
+    def __init__(self, cfg: CfgNode, run_type: str):
         super().__init__()
         self.cfg = cfg
         self.run_type = run_type
@@ -212,7 +213,7 @@ class MultimodalCDDataset(AbstractMultimodalCDDataset):
         return f'Dataset with {self.length} samples.'
 
 
-class DeploymentDataset(torch.utils.data.Dataset):
+class DeploymentAppDataset(torch.utils.data.Dataset):
 
     def __init__(self, cfg: experiment_manager.CfgNode, site: str):
         super().__init__()
@@ -287,6 +288,87 @@ class DeploymentDataset(torch.utils.data.Dataset):
 
     def get_geo(self):
         return self.transform, self.crs
+
+    def __len__(self):
+        return self.length
+
+    def __str__(self):
+        return f'Dataset with {self.length} samples.'
+
+
+class DeploymentDataset(torch.utils.data.Dataset):
+
+    def __init__(self, cfg: CfgNode, site: str, year_t1: int, year_t2: int, tile_size: int):
+        super().__init__()
+
+        self.cfg = cfg
+        self.data_path = Path(cfg.PATHS.DATASET)
+
+        self.site = site
+        self.year_t1 = year_t1
+        self.year_t2 = year_t2
+
+        self.s1_bands = [0, 1]
+        self.s2_bands = [2, 1, 0, 3]
+        self.tile_size = tile_size
+        self.tiles = geofiles.load_json(self.data_path / 'tiles.json')
+
+        self.m = max([int(t[-21:-11]) for t in self.tiles]) + self.tile_size
+        self.n = max([int(t[-10:]) for t in self.tiles]) + self.tile_size
+
+        manager = multiprocessing.Manager()
+        self.tiles = manager.list(self.tiles)
+
+        self.length = len(self.tiles)
+
+    def __getitem__(self, index):
+        tile = self.tiles[index]
+        i, j = int(tile[-21:-11]), int(tile[-10:])
+
+        tile_s1_t1 = self._load_s1_tile(i, j, self.year_t1)
+        tile_s1_t2 = self._load_s1_tile(i, j, self.year_t2)
+        tile_s2_t1 = self._load_s2_tile(i, j, self.year_t1)
+        tile_s2_t2 = self._load_s2_tile(i, j, self.year_t2)
+
+        tile_s1_t1, tile_s1_t2 = TF.to_tensor(tile_s1_t1), TF.to_tensor(tile_s1_t2)
+        tile_s2_t1, tile_s2_t2 = TF.to_tensor(tile_s2_t1), TF.to_tensor(tile_s2_t2)
+
+        if self.cfg.DATALOADER.INPUT_MODE == 's1':
+            x_t1, x_t2 = tile_s1_t1, tile_s1_t2
+        elif self.cfg.DATALOADER.INPUT_MODE == 's2':
+            x_t1, x_t2 = tile_s2_t1, tile_s2_t2
+        else:
+            x_t1 = torch.concat((tile_s1_t1, tile_s2_t1), dim=0)
+            x_t2 = torch.concat((tile_s1_t2, tile_s2_t2), dim=0)
+
+        item = {
+            'x_t1': x_t1,
+            'x_t2': x_t2,
+            'i': i,
+            'j': j,
+        }
+
+        return item
+
+    def _load_s1_tile(self, i: int, j: int, year: int) -> np.ndarray:
+        file = self.data_path / str(year) / 's1' / f's1_{self.site}_{year}-{i:010d}-{j:010d}.tif'
+        tile, _, _ = geofiles.read_tif(file)
+        tile = np.clip(tile, 0, 1)
+        return np.nan_to_num(tile).astype(np.float32)
+
+    def _load_s2_tile(self, i: int, j: int, year: int) -> np.ndarray:
+        file = self.data_path / str(year) / 's2' / f's2_{self.site}_{year}-{i:010d}-{j:010d}.tif'
+        tile, _, _ = geofiles.read_tif(file)
+        tile = np.clip(tile[:, :, [2, 1, 0, 3]], 0, 1)
+        return np.nan_to_num(tile).astype(np.float32)
+
+    def get_arr(self, c: int = 1):
+        return np.zeros((self.m, self.n), dtype=np.uint8) if c == 1 else np.zeros((self.m, self.n, c), dtype=np.uint8)
+
+    def get_geo(self):
+        file = self.data_path / str(self.year_t1) / 's1' / f's1_{self.site}_{self.year_t1}-{0:010d}-{0:010d}.tif'
+        _, transform, crs = geofiles.read_tif(file)
+        return transform, crs
 
     def __len__(self):
         return self.length
@@ -472,12 +554,6 @@ class MultimodalCDDatasetStockholm(AbstractMultimodalCDDataset):
         label, _, _ = geofiles.read_tif(file)
         label = label > 0
         return np.nan_to_num(label).astype(np.float32)
-
-    def get_index(self, aoi_id: str) -> int:
-        for index, candidate_aoi_id in enumerate(self.aoi_ids):
-            if aoi_id == candidate_aoi_id:
-                return index
-        return None
 
     def __len__(self):
         return self.length

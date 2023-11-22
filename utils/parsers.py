@@ -37,13 +37,31 @@ def sweep_argument_parser():
     return parser
 
 
-def deployment_argument_parser():
+def deployment_app_argument_parser():
     parser = argparse.ArgumentParser(description="Experiment Args")
     parser.add_argument('-c', "--config-file", dest='config_file', required=True, help="path to config file")
     parser.add_argument('-o', "--output-dir", dest='output_dir', required=True, help="path to output directory")
     parser.add_argument('-d', "--dataset-dir", dest='dataset_dir', default="", required=True,
                         help="path to output directory")
     parser.add_argument('-s', "--site", dest='site', default="example", help="site name")
+
+    parser.add_argument(
+        "opts",
+        help="Modify config options using the command-line",
+        default=None,
+        nargs=argparse.REMAINDER,
+    )
+    return parser
+
+
+def deployment_argument_parser():
+    parser = argparse.ArgumentParser(description="Experiment Args")
+    parser.add_argument('-c', "--config-file", dest='config_file', required=True, help="path to config file")
+    parser.add_argument('-o', "--output-dir", dest='output_dir', required=True, help="path to output directory")
+    parser.add_argument('-d', "--dataset-dir", dest='dataset_dir', default="", required=True,
+                        help="path to output directory")
+    parser.add_argument('-y1', "--yeart1", dest='year_t1', required=True, help="year_t1")
+    parser.add_argument('-y2', "--yeart2", dest='year_t2', required=True, help="year_t2")
 
     parser.add_argument(
         "opts",
