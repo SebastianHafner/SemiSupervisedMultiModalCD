@@ -25,7 +25,7 @@ We provide tools to detect urban changes in any location and for any time period
     
     ```
 
-3. Download satellite data for your region of interest with the UI in this [GEE script](https://code.earthengine.google.com/ae1080c1d1f17f2fa0c29018eb74410b?hideCode=true).
+3. Download satellite data for your region of interest with the UI in this [GEE script](https://code.earthengine.google.com/33547716c33074d5cac1b81f02aacd95?hideCode=true).
 
 4. Run the Colab notebook to detect urban changes for your region of interest.
 
